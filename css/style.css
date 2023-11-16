@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/*==============Common CSS End===============*/
+
+/* ================= Header Section Start ================== */
+
+#main_header {
+    width: 100%;
+    height: 121px;
+    background-color: #daac00;
+}
+
+.container .header_row {
+    display: flex;
+
+}
+
+.header_row .header_left_col {
+    width: 30%;
+}
+
+
+.header_row .header_left_col .photo {
+    width: 210px;
+    height: 57px;
+    line-height: 121px;
+}
+
+.header_row .header_right_col {
+    width: 70%;
+    height: 121px;
+    display: flex;
+
+}
+
+.header_row .header_right_col .nav ul {
+    display: flex;
+}
+
+.header_row .header_right_col .nav ul li a {
+    padding-left: 42px;
+    line-height: 121px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.header_row .header_right_col .btn {
+    line-height: 121px;
+    padding-left: 72px;
+
+}
+
+.header_right_col .btn input {
+    width: 203px;
+    height: 51px;
+    font-size: 15px;
+    background-color: #fcc302;
+    outline: none;
+    border: 0;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.header_right_col .batm {
+    line-height: 125px;
+
+}
+
+.header_right_col .batm button {
+    width: 71px;
+    height: 51px;
+    border: 0;
+    outline: none;
+    font-size: 24px;
+    background-color: #00bec9;
+}
+
+.header_right_col .batm button a {
+    color: #fff;
+}
+
+/* ================= Header Section End ================== */
+
+/* ================= Banner Section Start ================== */
+#main_banner {
+    /* width: 100%; */
+    height: 776px;
+    background-color: #fcc302;
+}
+
+.banner_row {
+    display: flex;
+}
+
+.banner_row .banner_left_col {
+    margin: 192px 0 auto;
+    width: 660px;
+
+}
+
+.banner_row .banner_left_col h1 {
+    font-size: 47px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 52px;
+}
+
+.banner_row .banner_left_col p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+    color: #fff;
+    width: 470px;
+
+}
+
+.banner_row .banner_left_col .banner_btn button {
+    width: 182px;
+    height: 69px;
+    margin-right: 53px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    transition: all linear .3s;
+}
+
+.banner_row .banner_left_col .banner_btn button:hover {
+    background-color: #00bec9;
+    border-color: #00bec9;
+}
+
+.banner_row .banner_right_col img {
+    width: 374px;
+    margin: 92px 108px;
+
+}
+
+
+/* ================= Banner Section End ================== */
+
+/* ================= Our Service Section Start ================== */
+
+#main_service {
+    width: 100%;
+    height: 792px;
+
+}
+
+.our_service {
+    display: flex;
+}
+
+.our_service .service_left {
+    width: 30%;
+}
+
+.our_service .service_left .service_text {
+    width: 548px;
+    margin-top: 216px;
+
+}
+
+.our_service .service_left .service_text h2 {
+    font-size: 55px;
+    padding-bottom: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.our_service .service_left .service_text p {
+    font-size: 40px;
+    padding-bottom: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service_left .btn {
+    width: 182px;
+    height: 69px;
+    background-color: #fcc302;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 69px;
+    border-radius: 5px;
+}
+
+.our_service .service_right {
+    width: 70%;
+}
+
+.service_right .colorBox {
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    margin-top: 446px;
+    margin-left: 210px;
+    position: relative;
+
+}
+
+.service_right .video {
+    width: 508px;
+    height: 480px;
+    margin-top: 140px;
+    margin-left: 244px;
+    background: url(../image/Video-image.png);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.service_right .video:hover {
+    background-image: linear-gradient(rgba(255, 217, 0, 0.5), rgba(255, 217, 0, 0.5)), url(../image/Video-image.png);
+    cursor: pointer;
+
+
+}
+
+/* .service_right .video{
+    position: relative;
+} */
+.service_right .video a {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 80px;
+    color: #fff;
+
+}
+
+/* ================= Our Service Section End ================== */
+
+/* ================= Title Here Section Start ================== */
+
+#title {
+    width: 100%;
+    height: 1014px;
+    background-color: #fcc302;
+}
+
+#title .container .main_title .head_title {
+    width: 100%;
+}
+
+#title .container .main_title .head_title h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 102px;
+}
+
+#title .container .main_title .head_title p {
+    width: 630px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 255px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#title .container .main_title .photo_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.photo_title .sub_photo .pic_photo img {
+    width: 343px;
+    height: 354px;
+}
+
+.photo_title .pic_text {
+    width: 343px;
+    height: 354px;
+}
+
+.photo_title .sub_photo .pic_text h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-top: 54px;
+}
+
+.photo_title .sub_photo .pic_text p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+/* ================= Title Here Section End ================== */
+
+/* ================= Our Service two Section Start ================== */
+#main_service_two {
+    width: 100%;
+    height: 792px;
+
+}
+
+.our_service_two {
+    display: flex;
+}
+
+.our_service_two .two_service_right {
+    width: 50%;
+}
+
+.our_service_two .two_service_right .service_text {
+    width: 548px;
+    margin-top: 220px;
+    margin-left: 55px;
+
+}
+
+.our_service_two .two_service_right .service_text h2 {
+    font-size: 49.86px;
+    padding-bottom: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.our_service_two .two_service_right .service_text p {
+    font-size: 29.27px;
+    font-weight: 400;
+    padding-bottom: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two_service_right .btn {
+    width: 182px;
+    height: 69px;
+    background-color: #fcc302;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 69px;
+    border-radius: 5px;
+    margin-left: 400px;
+}
+
+.our_service_two .two_service_left {
+    width: 50%;
+}
+
+.two_service_left .colorBox {
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    margin-top: 446px;
+    /* margin-left: 210px; */
+    position: relative;
+
+}
+
+.two_service_left .video {
+    width: 508px;
+    height: 480px;
+    margin-top: 140px;
+    margin-left: 20px;
+    background: url(../image/Video-image.png);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.two_service_left .video:hover {
+    background-image: linear-gradient(rgba(255, 217, 0, 0.5), rgba(255, 217, 0, 0.5)), url(../image/Video-image.png);
+    cursor: pointer;
+
+
+}
+
+/* .service_right .video{
+    position: relative;
+} */
+.two_service_left .video a {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 80px;
+    color: #fff;
+
+}
+
+.sub_photo .pic_text button{
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #00bec9;
+    border-radius: 30px;
+    border: 0;
+    margin-top: 32px;
+    margin-left: 80px;
+}
+/* ================= Our Service two Section End ================== */
+
+/* ================= Team Section Start ================== */
+#team{
+    width: 100%;
+    height: 1074px;
+}
+
+.team_photo_title{
+    display: flex;
+    justify-content: space-around;
+}
+.team_title .head_title{
+    width: 100%;
+    height: 414px;
+    margin-top: 147px;
+}
+
+.team_title .head_title h2{
+    font-size: 75px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.team_title .head_title p{
+    width: 740px;
+    font-size: 34px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.team_photo_title .team_photo .team_sub{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.team_photo_title .team_photo .team_sub img{
+    width: 374px;
+    height: 366px;
+}
+
+.team_photo .social ul{
+   display: flex;
+  
+}
+.team_photo .social{
+    display: flex;
+    justify-content: center;
+}
+.team_photo .social ul li a{
+    padding-left: 14px;
+    color: #fcc302;
+    margin-top: 30px;
+
+}
+
+.team_photo .pic_text{
+    text-align: center;
+}
+
+
+
+
+
+/* ================ Team Section End ================== */
+
+/* ================= icon Section Start ================== */
+#icon{
+    width: 100%;
+    height: 576px;
+   background-image: linear-gradient(rgba(255, 217, 0, 0.777), rgba(255, 217, 0, 0.777)), url(../image/buttombanner.png);
+   background-size: cover;
+}
+
+.main_icon{
+    padding-top: 165px;
+}
+
+.main_icon .all_icon .icons ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+    .main_icon .all_icon .icons ul li a{
+        font-size: 87px;
+        color: #fff;
+      
+    }
+
+    .main_icon .all_text{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main_icon .all_text h2,p{
+        color: #fff;
+    }
+/* ================= icon Section End ================== */
+
+/* ================= Recent Section Start ================== */
+#main_recent{
+    width: 100%;
+    height: 1177px;
+}
+
+.recent_image{
+    display: flex;
+    justify-content: space-between;
+}
+.all_recent .header_recent{
+    width: 100%;
+    height: 410px;
+}
+.all_recent .header_recent .text_recent{
+    padding-top: 140px;
+}
+.all_recent .header_recent .text_recent h2{
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+.all_recent .header_recent .text_recent p{
+    width: 740px;
+    font-size: 33px;
+    font-weight: 33px;
+    text-align: center;
+    margin-left: 230px;
+    color: #000000;
+    
+}
+
+.recent_image .img_box{
+    width: 360px;
+    height: 630px;
+    
+}
+
+
+.recent_image .img_box .text_box{
+    width: 360px;
+    height: 277px;
+    border-right: 2px solid #afafaf;
+    border-left: 2px solid #afafaf;
+    border-bottom: 2px solid #afafaf;
+}
+
+.recent_image .img_box .text_box .sub_text{
+    line-height: 35px;
+    margin-left: 31px;
+}
+
+.img_box .text_box h2{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.img_box .text_box h3{
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 500;
+    text-transform: uppercase;
+  
+
+}
+
+.img_box .text_box p{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+ 
+}
+
+.img_box .text_box h3 span{
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+/* ================= Recent Section End ================== */
+
+/* ================= Footer Section Start ================== */
+#footer{
+    width: 100%;
+    height: 654px;
+    background-color: #343434;
+}
+.main_footer{
+    display: flex;
+}
+.main_footer .footer_left{
+    width: 50%;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_footer .footer_left .footer_list{
+    margin-top: 170px;
+}
+.main_footer .footer_left .footer_list h1{
+    font-size: 37px;
+    font-weight: 700;
+    padding-bottom: 42px;
+    color: #fff;
+}
+.main_footer .footer_left .footer_list ul li{
+    font-size: 25px;
+    padding-bottom: 28px;
+}
+
+.main_footer .footer_left .footer_list ul li a{
+    color: #fff;
+    font-weight: 400;
+}
+
+.main_footer .footer_right{
+    width: 50%;
+    height: 654px;
+}
+
+.footer_right{
+    padding-top: 170px;
+}
+
+
+.footer_right .footer_text{
+  margin-right: 60px;
+  text-align: right;
+}
+.footer_right .footer_text h1{
+    font-size: 37px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer_right .searchBox{
+    display: flex;
+}
+.footer_right .searchBox input{
+    width: 386px;
+    height: 90px;
+    background-color: #fcc302;
+    outline: none;
+    border: 0;
+    margin-top: 56px;
+}
+
+.footer_right .searchBox .btn button{
+    width: 144px;
+    height: 90px;
+    background-color: #00bec9;
+    border: 0;
+    outline: none;
+    margin-top: 56px;
+}
+
+.footer_right .searchBox .btn button a{
+    font-size: 33px;
+    color: #fff;
+   
+}
+
+.footer_right .social ul{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 280px;
+   
+ }
+ .footer_right .social{
+     display: flex;
+     justify-content: center;
+ }
+ .footer_right .social ul li a{
+     padding-left: 14px;
+     color: #fff;
+     margin-top: 30px;
+     font-size: 45px;
+     
+   
+ 
+ }
+/* ================= Footer Section End ================== */
+
+
